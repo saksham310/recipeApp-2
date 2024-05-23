@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  /* border-bottom: 0.5px solid #666; */
+}
+.search-container input {
+  padding: 0.3rem;
+  border-radius: 20px;
+  border: 1px solid #828282;
+  transition: width 8s ease-in-out;
+}
+input:hover {
+  cursor: pointer;
+}
+.search-container input:focus {
+  width: 250px;
+  border: 1px solid black;
+}
