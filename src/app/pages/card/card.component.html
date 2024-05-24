@@ -1,4 +1,7 @@
 <div class="card-wrapper flex-col">
+    <div class="category">
+        <strong><span (click)="onClick(food.category)">{{food.category}}</span></strong>
+    </div>
     <img class="image" src={{food.image}} alt="">
     <div class="card-info">
         <div class="metaData flex center ">
@@ -19,7 +22,7 @@
                         </g>
                     </svg>
                 </button>
-                <button class="delete cta">
+                <button class="delete cta" (click)="onSend(food.id)">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256"
                         style="fill:#000000;">
                         <g fill="#364955" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -37,11 +40,12 @@
             </div>
 
         </div>
+
         <div class="action-btn flex center">
             <button class="detail btn">
                 View Recipe
             </button>
-            <strong><span>Category:{{food.category}}</span></strong>
+
         </div>
     </div>
 </div>

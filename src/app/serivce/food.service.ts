@@ -13,4 +13,8 @@ export class FoodService {
   getAll():Observable<Food>{
    return this.https.get(`${this.baseUrl}`) as Observable<Food>;
   }
+
+  deleteFood(id:string){
+    return this.https.delete<void>(`${this.baseUrl}/${id}`);
+  }
 }

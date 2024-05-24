@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { FoodService } from '../../serivce/food.service';
 import { Food } from '../../interface/food';
-import { filter } from 'rxjs/operators';
+import { filter ,map} from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-display',
@@ -13,13 +14,30 @@ import { filter } from 'rxjs/operators';
 })
 export class DisplayComponent {
   foods:Food[]=[];
+  obs$=new Observable<Food>();
   constructor(private foodService:FoodService){
-
+   
   }
 ngOnInit(){
-  const a$= this.foodService.getAll();
-  a$.subscribe((data:any)=>
-    // console.log(data))
-    this.foods=data.food);
+  this.obs$= this.foodService.getAll();
+  this.loadAll();
+}
+loadAll(){
+  
+  this.obs$.subscribe((data:any)=>
+    this.foods=data);
+}
+delete(id:string){
+this.foodService.deleteFood(id).subscribe(()=>{
+  console.log("Delete Success"),
+  this.loadAll();
+})
+}
+categoryLoad(cat:string){
+this.obs$.pipe(
+  map((data:any)=>data.filter((food:any)=>food.category===cat))).subscribe(data=>{
+    this.foods=data;
+  })
+
 }
 }

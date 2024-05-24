@@ -1,7 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Food } from '../../interface/food';
-// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome/fontawesome.module';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { FoodService } from '../../serivce/food.service';
 
 
 @Component({
@@ -13,6 +12,15 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class CardComponent {
 @Input() food!:Food;
-star=faCoffee;
+@Output() idEmitter=new EventEmitter()
+@Output() categoryEmit=new EventEmitter();
 
+constructor(private foodService:FoodService){}
+
+onSend(id:string){
+  this.idEmitter.emit(id);
+}
+onClick(name:string){
+  this.categoryEmit.emit(name);
+}
 }
