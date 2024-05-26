@@ -1,0 +1,37 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  /* border: 2px solid red; */
+}
+
+.form-wrapper {
+  width: 500px;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-title {
+  margin-bottom: 2rem;
+}
+.fields {
+  margin-bottom: 2rem;
+}
+.fields label {
+  display: block;
+  font-weight: Bold;
+  margin-bottom: 0.4rem;
+}
+input {
+  padding: 0.4rem;
+}
+input:focus {
+  outline: none;
+}
+button {
+  color: white;
+  background-color: black;
+}
+textarea {
+  resize: none;
+  width: 520px;
+  height: 120px;
+}

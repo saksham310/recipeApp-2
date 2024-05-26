@@ -12,19 +12,7 @@ img {
   flex-direction: column;
   gap: 2rem;
 }
-.btn {
-  margin-top: 0.6rem;
-  color: white;
-  width: 6rem;
-  border: none;
-  border-radius: 5px;
-  text-wrap: nowrap;
-  padding: 0.8rem;
-}
-.btn:hover {
-  cursor: pointer;
-  background: black;
-}
+
 .detail {
   background: rgb(51, 51, 51);
 }

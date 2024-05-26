@@ -17,4 +17,12 @@ export class FoodService {
   deleteFood(id:string){
     return this.https.delete<void>(`${this.baseUrl}/${id}`);
   }
+
+  addNew(food:Food){
+    return this.https.post(`${this.baseUrl}`,food);
+  }
+
+  updateItem(id:string,food:Food){
+    return this.https.put(`${this.baseUrl}/${id}`,food);
+  }
 }

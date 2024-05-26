@@ -9,7 +9,6 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-
 .image {
   width: 400px;
   height: 400px;
@@ -27,4 +26,17 @@ body {
 .center {
   align-items: center;
   justify-content: space-between;
+}
+.btn {
+  margin-top: 0.6rem;
+  color: white;
+  width: 6rem;
+  border: none;
+  border-radius: 5px;
+  text-wrap: nowrap;
+  padding: 0.8rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background: black;
 }
