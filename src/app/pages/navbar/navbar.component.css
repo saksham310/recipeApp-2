@@ -18,3 +18,11 @@ input:hover {
   width: 250px;
   border: 1px solid black;
 }
+fa-icon {
+  font-size: larger;
+  font-weight: 900;
+  margin: 3.4rem;
+}
+fa-icon:hover {
+  cursor: pointer;
+}

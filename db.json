@@ -1,16 +1,6 @@
 {
   "food": [
     {
-      "name": "Beef Stew",
-      "description": "A classic beef stew with hearty vegetables",
-      "category": "Stew",
-      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
-      "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
-      "image": "/assets/images/image1.jpg",
-      "ratings": "5",
-      "id": "1"
-    },
-    {
       "name": "Lemon Chicken",
       "description": "A zesty lemon-infused chicken delight",
       "category": "Meat",

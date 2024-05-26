@@ -1,6 +1,12 @@
 <nav class="nav">
     <h1 class="nav-title" [routerLink]="'/'">RecipeRack</h1>
+    @if(!isCreation()){
     <div class="search-container">
         <input type="text" placeholder="Search" (keyup.enter)="onSearch()" #search>
     </div>
+
+    <div class="creation-btn">
+
+        <fa-icon [icon]="plusBtn" [routerLink]="['/form']"></fa-icon>
+    </div>}
 </nav>
