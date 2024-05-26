@@ -25,7 +25,8 @@ constructor(private fb:FormBuilder, private service:FoodService, private route:A
     category:["",[Validators.required]],
     instruction:["",[Validators.required]],
     ingredient:["",[Validators.required]],
-    image:[""]
+    image:[""],
+    ratings:[5]
   })
 
   this.id=this.route.snapshot.params['id'];
@@ -44,7 +45,8 @@ this.service.getAll().pipe(map((data:any)=>data.find((food:any)=>food.id===this.
     category: data.category || "",
     instruction: data.instruction || "",
     ingredient: data.ingredient || "",
-    image: data.image||""
+    image: data.image||"",
+    ratings:data.ratings||1
   })
 }
 );

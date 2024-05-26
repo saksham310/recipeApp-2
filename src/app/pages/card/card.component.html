@@ -46,7 +46,7 @@
             </button>
             <div>
                 @for(rating of [1,2,3,4,5];track rating){
-                <fa-icon [icon]="star" [class.colored]="food.ratings>rating"></fa-icon>
+                <fa-icon [icon]="star" [class.colored]="food.ratings>=rating"></fa-icon>
                 }
             </div>
 

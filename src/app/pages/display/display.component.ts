@@ -3,6 +3,7 @@ import { CardComponent } from '../card/card.component';
 import { FoodService } from '../../serivce/food.service';
 import { Food } from '../../interface/food';
 import { filter ,map} from 'rxjs/operators';
+import { ToastrService } from 'ngx-toastr';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -15,7 +16,7 @@ import { Observable } from 'rxjs';
 export class DisplayComponent {
   foods:Food[]=[];
   obs$=new Observable<Food>();
-  constructor(private foodService:FoodService){
+  constructor(private foodService:FoodService,private toast:ToastrService){
    
   }
 ngOnInit(){

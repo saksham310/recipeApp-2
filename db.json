@@ -1,24 +1,14 @@
 {
   "food": [
     {
-      "name": "Biryani -ye",
-      "description": "A savory garlic shrimp dish",
-      "category": "Seafood",
-      "instruction": "ww",
-      "ingredient": "ww",
-      "image": "/assets/images/image2.jpeg",
-      "id": "2",
-      "ratings":3
-    },
-    {
       "name": "Beef Stew",
       "description": "A classic beef stew with hearty vegetables",
       "category": "Stew",
       "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving. Test",
       "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
       "image": "/assets/images/image1.jpg",
-      "id": "3",
-      "ratings":4
+      "ratings": "3",
+      "id": "3"
     },
     {
       "name": "Lemon Chicken",
@@ -28,27 +18,17 @@
       "ingredient": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Peppers",
       "image": "/assets/images/image2.jpeg",
       "id": "4",
-      "ratings":3
+      "ratings": 3
     },
     {
-      "id": "5",
-      "description": "A classic beef stew with hearty vegetables",
-      "ingredients": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
-      "image": "/assets/images/image1.jpg",
       "name": "Beef Stew",
-      "instructions": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
+      "description": "A classic beef stew with hearty vegetables",
       "category": "Stew",
-      "ratings":3
-    },
-    {
-      "name": "Biryani-edited",
-      "description": "A savory garlic shrimp dish",
-      "category": "Seafood",
-      "instruction": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons",
-      "ingredient": "Shrimp, Garlic, Butter, Parsley, Lemon Juice",
-      "image": "assets/images/image1.jpg",
-      "id": "7",
-      "ratings":5
+      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
+      "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
+      "image": "/assets/images/image1.jpg",
+      "ratings": "5",
+      "id": "5"
     }
   ]
 }

@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Food } from '../../interface/food';
 import { FoodService } from '../../serivce/food.service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-// import { faStar } from '@fortawesome/free-regular-svg-icons';
+
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { RouterLink } from '@angular/router';
 
