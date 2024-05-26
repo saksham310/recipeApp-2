@@ -45,3 +45,9 @@ img {
 .category:hover {
   transform: scale(1.2);
 }
+fa-icon {
+  padding: 0.1rem;
+}
+.colored {
+  color: gold;
+}
