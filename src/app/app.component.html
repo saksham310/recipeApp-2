@@ -1,4 +1,7 @@
 <app-navbar></app-navbar>
+<div *ngIf="!isMain()" class="navigationButton">
+  <fa-icon [icon]="backBtn" (click)="goBack()"></fa-icon>
+</div>
 <div class="wrapper">
   <router-outlet></router-outlet>
 </div>
