@@ -15,7 +15,8 @@ import { ActivatedRoute } from '@angular/router';
 export class RecipeFormComponent {
 @ViewChild('image') img!:ElementRef;
 recipeForm!:FormGroup;
-button="Add"
+buttonLabel="Add Recipe"
+label="Create New Recipe"
 id:string;
 constructor(private fb:FormBuilder, private service:FoodService, private route:ActivatedRoute){
   this.recipeForm=this.fb.group({
@@ -33,15 +34,19 @@ constructor(private fb:FormBuilder, private service:FoodService, private route:A
 
 ngOnInit(){
 if(this.id){
-this.service.getAll().pipe(map((data:any)=>data.find((food:any)=>food.id===this.id))).subscribe((data)=>
+this.buttonLabel="Update"
+this.label="Edit Recipe"
+this.service.getAll().pipe(map((data:any)=>data.find((food:any)=>food.id===this.id))).subscribe((data)=>{
+  console.log(data);
   this.recipeForm.patchValue({
     name: data.name || "",
     description: data.description || "",
     category: data.category || "",
-    instruction: data.instructions || "",
-    ingredient: data.ingredients || "",
+    instruction: data.instruction || "",
+    ingredient: data.ingredient || "",
     image: data.image||""
   })
+}
 );
 }}
 
@@ -53,9 +58,17 @@ onClick(){
       image:`assets/images/${path}`
     })
   }
-
-  this.service.addNew(this.recipeForm.value).subscribe(()=>
-    console.log(this.recipeForm.value))
+  if(this.id){
+    this.service.updateItem(this.id,this.recipeForm.value).subscribe(()=>{console.log("Updated success fully")
+      console.log(this.recipeForm.value)
+    })
+  }
+  else{
+  this.service.addNew(this.recipeForm.value).subscribe(()=>{
+    console.log("Added successfully")
+    this.recipeForm.reset();
+  
+  })
 }
-}
+}}
 

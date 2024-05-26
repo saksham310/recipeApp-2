@@ -6,7 +6,7 @@
         <div class="metaData flex center ">
             <h3>{{food.name}}</h3>
             <div class="edit-delete flex center">
-                <button class="edit cta">
+                <button class="edit cta" [routerLink]="['/form',food.id]">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
                         style="fill:#000000;">
                         <g fill="#94a0a8" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"

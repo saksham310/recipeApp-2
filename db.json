@@ -1,40 +1,31 @@
 {
   "food": [
     {
-      "id": "1",
-      "description": "A zesty lemon-infused chicken delight",
-      "ingredients": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Pepper",
-      "image": "/assets/images/image1.jpg",
-      "name": "Lemon Chicken",
-      "instructions": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
-      "category": "Meat"
-    },
-    {
-      "id": "2",
+      "name": "Biryani -ye",
       "description": "A savory garlic shrimp dish",
-      "ingredients": "Shrimp, Garlic, Butter, Parsley, Lemon Juice",
+      "category": "Seafood",
+      "instruction": "ww",
+      "ingredient": "ww",
       "image": "/assets/images/image2.jpeg",
-      "name": "Biryani",
-      "instructions": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
-      "category": "Seafood"
+      "id": "2"
     },
     {
-      "id": "3",
-      "description": "A classic beef stew with hearty vegetables",
-      "image": "/assets/images/image1.jpg",
-      "ingredients": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
       "name": "Beef Stew",
-      "instructions": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
-      "category": "Stew"
+      "description": "A classic beef stew with hearty vegetables",
+      "category": "Stew",
+      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving. Test",
+      "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
+      "image": "/assets/images/image1.jpg",
+      "id": "3"
     },
     {
-      "id": "4",
-      "description": "A zesty lemon-infused chicken delight",
-      "ingredients": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Pepper",
-      "image": "/assets/images/image2.jpeg",
       "name": "Lemon Chicken",
-      "instructions": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
-      "category": "Meat"
+      "description": "A zesty lemon-infused chicken delight",
+      "category": "Meat",
+      "instruction": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
+      "ingredient": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Peppers",
+      "image": "/assets/images/image2.jpeg",
+      "id": "4"
     },
     {
       "id": "5",
@@ -46,13 +37,13 @@
       "category": "Stew"
     },
     {
-      "id": "7",
+      "name": "Biryani-edited",
       "description": "A savory garlic shrimp dish",
-      "ingredients": "Shrimp, Garlic, Butter, Parsley, Lemon Juice",
+      "category": "Seafood",
+      "instruction": "asdfsf",
+      "ingredient": "dasfdsa",
       "image": "/assets/images/image2.jpeg",
-      "name": "Biryani",
-      "instructions": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
-      "category": "Seafood"
+      "id": "7"
     }
   ]
 }

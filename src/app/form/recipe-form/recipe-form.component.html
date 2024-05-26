@@ -1,7 +1,7 @@
 <div class="wrapper">
     <div class="form-wrapper">
         <div class="form-title">
-            <h1>Recipe Form</h1>
+            <h1>{{label}}</h1>
             <h4>Have a recipe idea? fill it out</h4>
         </div>
         <form [formGroup]="recipeForm" (ngSubmit)="onClick()">
@@ -34,7 +34,7 @@
                 <input id="image" #image type="file">
             </div>
 
-            <button type="submit" class='btn' [disabled]="recipeForm.invalid">Submit</button>
+            <button type="submit" class='btn' [disabled]="recipeForm.invalid">{{buttonLabel}}</button>
         </form>
 
 

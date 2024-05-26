@@ -3,11 +3,12 @@ import { Food } from '../../interface/food';
 import { FoodService } from '../../serivce/food.service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faStar } from '@fortawesome/free-regular-svg-icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [FontAwesomeModule],
+  imports: [FontAwesomeModule,RouterLink],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
