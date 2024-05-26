@@ -26,6 +26,10 @@ export class FoodService {
     return this.https.post(`${this.baseUrl}`,food);
   }
 
+  getOne(id:string){
+    return this.https.get(`${this.baseUrl}/${id}`);
+  }
+
   updateItem(id:string,food:Food){
     return this.https.put(`${this.baseUrl}/${id}`,food);
   }
