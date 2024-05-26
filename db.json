@@ -4,31 +4,101 @@
       "name": "Beef Stew",
       "description": "A classic beef stew with hearty vegetables",
       "category": "Stew",
-      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving. Test",
+      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
       "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
       "image": "/assets/images/image1.jpg",
-      "ratings": "2",
-      "id": "3"
+      "ratings": "5",
+      "id": "1"
     },
     {
       "name": "Lemon Chicken",
       "description": "A zesty lemon-infused chicken delight",
       "category": "Meat",
-      "instruction": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring its evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
-      "ingredient": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Peppers",
+      "instruction": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring it's evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
+      "ingredient": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Pepper",
       "image": "/assets/images/image2.jpeg",
-      "id": "4",
-      "ratings": 3
+      "ratings": "3",
+      "id": "2"
     },
     {
-      "name": "Beef Stew",
-      "description": "A classic beef stew with hearty vegetables",
-      "category": "Stew",
-      "instruction": "Brown the beef stew meat in a large pot. Add chopped onions and garlic, cooking until softened. Stir in tomato paste, beef broth, bay leaves, and thyme. Add chopped carrots and potatoes, simmer until vegetables are tender. Season with salt and pepper to taste before serving.",
-      "ingredient": "Beef Stew Meat, Carrots, Potatoes, Onion, Beef Broth, Tomato Paste, Garlic, Bay Leaves, Thyme, Salt, Pepper",
-      "image": "/assets/images/image1.jpg",
+      "name": "Vegetable Stir Fry",
+      "description": "A quick and easy vegetable stir fry",
+      "category": "Vegetarian",
+      "instruction": "Heat oil in a large skillet over medium-high heat. Add garlic and ginger, cooking until fragrant. Add mixed vegetables and stir-fry for 5-7 minutes. Stir in soy sauce and cook for another 2-3 minutes. Serve hot over steamed rice or noodles.",
+      "ingredient": "Mixed vegetables, Garlic, Ginger, Soy Sauce, Oil",
+      "image": "/assets/images/image3.jpeg",
+      "ratings": "4",
+      "id": "3"
+    },
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish with a creamy sauce",
+      "category": "Pasta",
+      "instruction": "Cook spaghetti according to package instructions. In a bowl, whisk together eggs and grated Parmesan cheese. In a large skillet, cook pancetta until crispy. Add cooked spaghetti to the skillet and remove from heat. Quickly stir in the egg mixture, tossing to coat the pasta. Serve immediately with extra Parmesan and black pepper.",
+      "ingredient": "Spaghetti, Eggs, Parmesan Cheese, Pancetta, Black Pepper",
+      "image": "/assets/images/image4.jpeg",
       "ratings": "5",
+      "id": "4"
+    },
+    {
+      "name": "Chicken Curry",
+      "description": "A flavorful and spicy chicken curry",
+      "category": "Curry",
+      "instruction": "Heat oil in a large pot over medium heat. Add chopped onions, garlic, and ginger, cooking until softened. Stir in curry powder and cook for another minute. Add chicken pieces and cook until browned. Pour in coconut milk and simmer until chicken is cooked through. Serve hot with rice or naan.",
+      "ingredient": "Chicken, Onions, Garlic, Ginger, Curry Powder, Coconut Milk, Oil",
+      "image": "/assets/images/image5.jpeg",
+      "ratings": "4",
       "id": "5"
+    },
+    {
+      "name": "Chocolate Cake",
+      "description": "A rich and moist chocolate cake",
+      "category": "Dessert",
+      "instruction": "Preheat your oven to 350°F (175°C). In a bowl, mix together flour, cocoa powder, baking powder, and salt. In another bowl, beat together sugar, eggs, and melted butter. Combine the wet and dry ingredients, then stir in milk and vanilla extract. Pour the batter into a greased baking pan and bake for 25-30 minutes. Let cool before serving.",
+      "ingredient": "Flour, Cocoa Powder, Baking Powder, Salt, Sugar, Eggs, Butter, Milk, Vanilla Extract",
+      "image": "/assets/images/image6.jpeg",
+      "ratings": "5",
+      "id": "6"
+    },
+    {
+      "name": "Caesar Salad",
+      "description": "A classic Caesar salad with homemade dressing",
+      "category": "Salad",
+      "instruction": "In a bowl, whisk together lemon juice, Dijon mustard, minced garlic, anchovy paste, and Worcestershire sauce. Slowly drizzle in olive oil while whisking to create a creamy dressing. Toss chopped romaine lettuce with the dressing, croutons, and grated Parmesan cheese. Serve immediately.",
+      "ingredient": "Romaine Lettuce, Lemon Juice, Dijon Mustard, Garlic, Anchovy Paste, Worcestershire Sauce, Olive Oil, Croutons, Parmesan Cheese",
+      "image": "/assets/images/image7.jpeg",
+      "ratings": "4",
+      "id": "7"
+    },
+    {
+      "name": "Grilled Salmon",
+      "description": "A simple and healthy grilled salmon",
+      "category": "Seafood",
+      "instruction": "Preheat your grill to medium-high heat. Season salmon fillets with salt, pepper, and olive oil. Place the salmon on the grill, skin-side down, and cook for 4-6 minutes per side, or until the salmon is opaque and flakes easily with a fork. Serve with lemon wedges and fresh herbs.",
+      "ingredient": "Salmon Fillets, Salt, Pepper, Olive Oil, Lemon, Fresh Herbs",
+      "image": "/assets/images/image8.jpeg",
+      "ratings": "5",
+      "id": "8"
+    },
+    {
+      "name": "Beef Tacos",
+      "description": "Flavorful beef tacos with fresh toppings",
+      "category": "Mexican",
+      "instruction": "In a skillet, cook ground beef over medium heat until browned. Stir in taco seasoning and water, simmering until the sauce thickens. Serve the beef mixture in taco shells, topped with shredded lettuce, diced tomatoes, cheese, and sour cream.",
+      "ingredient": "Ground Beef, Taco Seasoning, Water, Taco Shells, Lettuce, Tomatoes, Cheese, Sour Cream",
+      "image": "/assets/images/image9.jpeg",
+      "ratings": "4",
+      "id": "9"
+    },
+    {
+      "name": "Pancakes",
+      "description": "Fluffy pancakes perfect for breakfast",
+      "category": "Breakfast",
+      "instruction": "In a bowl, whisk together flour, baking powder, sugar, and salt. In another bowl, beat together milk, eggs, and melted butter. Combine the wet and dry ingredients, stirring until just combined. Heat a lightly oiled griddle over medium-high heat. Pour batter onto the griddle, cooking until bubbles form on the surface. Flip and cook until golden brown. Serve with syrup and butter.",
+      "ingredient": "Flour, Baking Powder, Sugar, Salt, Milk, Eggs, Butter, Syrup",
+      "image": "/assets/images/image11.jpeg",
+      "ratings": "5",
+      "id": "10"
     }
   ]
 }

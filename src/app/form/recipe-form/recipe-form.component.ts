@@ -57,7 +57,7 @@ onClick(){
   if(path){
     path=path.split('\\').pop();
     this.recipeForm.patchValue({
-      image:`assets/images/${path}`
+      image:`/assets/images/${path}`
     })
   }
   if(this.id){
