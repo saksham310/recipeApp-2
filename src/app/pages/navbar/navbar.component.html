@@ -1,6 +1,6 @@
 <nav class="nav">
     <h1 class="nav-title" [routerLink]="'/'">RecipeRack</h1>
     <div class="search-container">
-        <input type="text" placeholder="Search">
+        <input type="text" placeholder="Search" (keyup.enter)="onSearch()" #search>
     </div>
 </nav>

@@ -1,12 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Food } from '../interface/food';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
 export class FoodService {
    baseUrl="http://localhost:3000/food";
+  
+   Search=new Subject<string>();
+
+
 
   constructor(private https:HttpClient) { }
 
@@ -24,5 +28,9 @@ export class FoodService {
 
   updateItem(id:string,food:Food){
     return this.https.put(`${this.baseUrl}/${id}`,food);
+  }
+
+  onSearch(value:string){
+    this.Search.next(value);
   }
 }
