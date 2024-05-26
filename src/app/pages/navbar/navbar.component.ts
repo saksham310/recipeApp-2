@@ -15,6 +15,7 @@ export class NavbarComponent {
   constructor(private service:FoodService){}
 
 onSearch(){
+// console.log(this.search.nativeElement.value);
 this.service.onSearch(this.search.nativeElement.value);
 }
 }

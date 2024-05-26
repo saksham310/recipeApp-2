@@ -14,30 +14,56 @@ import { Observable } from 'rxjs';
   styleUrl: './display.component.css'
 })
 export class DisplayComponent {
+
+  //create empty array of type Food
   foods:Food[]=[];
+  // creating an observable
   obs$=new Observable<Food>();
+  searchBox:string='all';
+
   constructor(private foodService:FoodService,private toast:ToastrService){
    
   }
 ngOnInit(){
+  //using service to get the recipe items
   this.obs$= this.foodService.getAll();
+  this.foodService.Search.subscribe((data)=>{
+    
+
+    this.searchBox=data
+    this.loadAll();
+  }
+  
+  )
   this.loadAll();
+
 }
 loadAll(){
-  
+  if(this.searchBox==='all'){
+  //subscribes to access the data and store in the food array
   this.obs$.subscribe((data:any)=>
-    this.foods=data);
+    this.foods=data);}
+  else{
+    this.categoryLoad(this.searchBox)
+  }
 }
+
 delete(id:string){
+  //deletes a recipe
 this.foodService.deleteFood(id).subscribe(()=>{
   console.log("Delete Success"),
   this.loadAll();
 })
 }
 categoryLoad(cat:string){
+
+//using pipe function to use rxjs operator to filter the data matching the condition
 this.obs$.pipe(
-  map((data:any)=>data.filter((food:any)=>food.category===cat))).subscribe(data=>{
-    this.foods=data;
+  map((data:any)=>data.filter((food:any)=>food.category.toLowerCase().includes(cat.toLowerCase())||
+  food.name.toLowerCase().includes(cat.toLowerCase()))))
+  .subscribe(data=>{
+    console.log(data);
+    this.foods=data
   })
 
 }
