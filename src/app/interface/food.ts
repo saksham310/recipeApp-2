@@ -4,7 +4,7 @@ export interface Food {
     image?:string;
     ratings:number
     description:string;
-    ingredients:string;
-    instructions:string;
+    ingredient:string;
+    instruction:string;
     category:string;
 }
