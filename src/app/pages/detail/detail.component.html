@@ -1,1 +1,30 @@
-<p>detail works!</p>
+<div class="wrapper">
+    <div class="image-wrapper">
+        <img class="image" src={{data.image}} alt="">
+    </div>
+    <div class="content-wrapper">
+        <div class="heading flex center">
+            <h1>{{data.name}}</h1>
+            <div class="ratings">@for(rating of [1,2,3,4,5];track rating){
+                <fa-icon [icon]="star" [class.colored]="data.ratings>=rating"></fa-icon>
+                }
+            </div>
+
+        </div>
+        <h2>Category: {{data.category}}</h2>
+        <div class="description">
+            <h3>Description</h3>
+            <p class="description">{{data.description}}</p>
+        </div>
+    </div>
+    <div class="instruction">
+        <h2>Instructions</h2>
+        <p class="description">{{data.instruction}}</p>
+    </div>
+    <div class="ingredient">
+        <h2>Ingredients</h2>
+        @for(item of ingredient;track item){
+        <li class="items">{{item}}</li>
+        }
+    </div>
+</div>

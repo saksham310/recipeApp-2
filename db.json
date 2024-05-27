@@ -2,17 +2,17 @@
   "food": [
     {
       "name": "Lemon Chicken",
-      "description": "A zesty lemon-infused chicken delight",
+      "description": "A zesty lemon-infused chicken delight that brings a burst of fresh flavors to your dinner table. This dish features tender chicken breasts marinated in a tangy lemon-garlic sauce, then baked to perfection and finished with a golden-brown broil. The lemon juice adds a refreshing acidity that pairs wonderfully with the rich, savory notes of garlic and olive oil. This recipe is easy to prepare and makes for a delicious, low-fat meal that can be enjoyed on busy weeknights or special occasions alike. Garnish with fresh lemon slices and chopped parsley for an extra touch of elegance.",
       "category": "Meat",
       "instruction": "Preheat your oven to 375°F (190°C). Place chicken breasts in a baking dish. In a small bowl, combine the juice of two lemons, minced garlic, olive oil, salt, and pepper. Pour the lemon mixture over the chicken, ensuring it's evenly coated. Cover the baking dish with foil and bake for 25-30 minutes, or until the chicken is cooked through. Remove the foil and broil for an additional 2-3 minutes to get a golden brown color on top. Serve hot, garnished with fresh lemon slices and chopped parsley if desired.",
       "ingredient": "Chicken breasts, Lemons, Olive oil, Garlic, Salt, Pepper",
-      "image": "/assets/images/image2.jpeg",
+      "image": "/assets/images/image1.jpg",
       "ratings": "3",
       "id": "2"
     },
     {
       "name": "Vegetable Stir Fry",
-      "description": "A quick and easy vegetable stir fry",
+      "description": "A quick and easy vegetable stir fry that is both nutritious and vibrant, perfect for a light lunch or a satisfying dinner. This dish features a medley of colorful vegetables like bell peppers, broccoli, carrots, and snap peas, stir-fried with fragrant garlic and ginger. The vegetables are cooked just enough to retain their crispness and natural sweetness. A splash of soy sauce ties everything together with a savory umami flavor. Serve this delightful stir fry over steamed rice or noodles for a wholesome and balanced meal that can be customized with your favorite veggies.",
       "category": "Vegetarian",
       "instruction": "Heat oil in a large skillet over medium-high heat. Add garlic and ginger, cooking until fragrant. Add mixed vegetables and stir-fry for 5-7 minutes. Stir in soy sauce and cook for another 2-3 minutes. Serve hot over steamed rice or noodles.",
       "ingredient": "Mixed vegetables, Garlic, Ginger, Soy Sauce, Oil",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Spaghetti Carbonara",
-      "description": "A classic Italian pasta dish with a creamy sauce",
+      "description": "A classic Italian pasta dish with a creamy and luxurious sauce that is beloved around the world. Spaghetti Carbonara combines al dente spaghetti with crispy pancetta, creating a rich and indulgent meal. The sauce is made by whisking together eggs and grated Parmesan cheese, which coats the hot pasta, creating a silky texture without the need for cream. This dish is finished with a generous sprinkle of freshly ground black pepper, adding a subtle heat that complements the creamy sauce. It's a simple yet elegant dish that's perfect for dinner parties or cozy family meals.",
       "category": "Pasta",
       "instruction": "Cook spaghetti according to package instructions. In a bowl, whisk together eggs and grated Parmesan cheese. In a large skillet, cook pancetta until crispy. Add cooked spaghetti to the skillet and remove from heat. Quickly stir in the egg mixture, tossing to coat the pasta. Serve immediately with extra Parmesan and black pepper.",
       "ingredient": "Spaghetti, Eggs, Parmesan Cheese, Pancetta, Black Pepper",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Chicken Curry",
-      "description": "A flavorful and spicy chicken curry",
+      "description": "A flavorful and spicy chicken curry that offers a warm and comforting meal experience. This curry features tender chicken pieces cooked in a rich and aromatic sauce made from a blend of onions, garlic, ginger, and curry powder. Coconut milk is added to create a creamy texture and to balance the heat from the spices. This dish is simmered to perfection, allowing the flavors to meld beautifully. Serve this chicken curry hot with rice or naan bread to soak up the delicious sauce. It's a perfect dish for those who enjoy bold and vibrant flavors.",
       "category": "Curry",
       "instruction": "Heat oil in a large pot over medium heat. Add chopped onions, garlic, and ginger, cooking until softened. Stir in curry powder and cook for another minute. Add chicken pieces and cook until browned. Pour in coconut milk and simmer until chicken is cooked through. Serve hot with rice or naan.",
       "ingredient": "Chicken, Onions, Garlic, Ginger, Curry Powder, Coconut Milk, Oil",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Chocolate Cake",
-      "description": "A rich and moist chocolate cake",
+      "description": "A rich and moist chocolate cake that is a true delight for chocolate lovers. This cake is made with high-quality cocoa powder, giving it a deep and intense chocolate flavor. The texture is perfectly soft and tender, with each bite melting in your mouth. The batter includes a mix of flour, baking powder, sugar, eggs, and melted butter, resulting in a cake that is both light and decadent. This chocolate cake is perfect for birthdays, celebrations, or simply as a treat to satisfy your sweet tooth. Serve it with a dollop of whipped cream or a scoop of vanilla ice cream for an extra indulgence.",
       "category": "Dessert",
       "instruction": "Preheat your oven to 350°F (175°C). In a bowl, mix together flour, cocoa powder, baking powder, and salt. In another bowl, beat together sugar, eggs, and melted butter. Combine the wet and dry ingredients, then stir in milk and vanilla extract. Pour the batter into a greased baking pan and bake for 25-30 minutes. Let cool before serving.",
       "ingredient": "Flour, Cocoa Powder, Baking Powder, Salt, Sugar, Eggs, Butter, Milk, Vanilla Extract",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Caesar Salad",
-      "description": "A classic Caesar salad with homemade dressing",
+      "description": "A classic Caesar salad that features crisp romaine lettuce tossed with a creamy, homemade dressing. The dressing is made with a blend of lemon juice, Dijon mustard, minced garlic, anchovy paste, and Worcestershire sauce, which is slowly emulsified with olive oil to create a smooth and rich texture. The salad is finished with crunchy croutons and a generous sprinkle of grated Parmesan cheese, adding both texture and flavor. This Caesar salad is a timeless favorite that can be enjoyed as a starter, a side dish, or a light main course.",
       "category": "Salad",
       "instruction": "In a bowl, whisk together lemon juice, Dijon mustard, minced garlic, anchovy paste, and Worcestershire sauce. Slowly drizzle in olive oil while whisking to create a creamy dressing. Toss chopped romaine lettuce with the dressing, croutons, and grated Parmesan cheese. Serve immediately.",
       "ingredient": "Romaine Lettuce, Lemon Juice, Dijon Mustard, Garlic, Anchovy Paste, Worcestershire Sauce, Olive Oil, Croutons, Parmesan Cheese",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Grilled Salmon",
-      "description": "A simple and healthy grilled salmon",
+      "description": "A simple and healthy grilled salmon that highlights the natural flavors of the fish. This dish features salmon fillets seasoned with salt, pepper, and a touch of olive oil, then grilled to perfection. The grilling process gives the salmon a beautiful char and enhances its rich, buttery texture. Served with lemon wedges and fresh herbs, this dish is light, nutritious, and full of flavor. It's a perfect choice for a quick and easy dinner that doesn't compromise on taste. Pair it with a side of steamed vegetables or a fresh salad for a complete meal.",
       "category": "Seafood",
       "instruction": "Preheat your grill to medium-high heat. Season salmon fillets with salt, pepper, and olive oil. Place the salmon on the grill, skin-side down, and cook for 4-6 minutes per side, or until the salmon is opaque and flakes easily with a fork. Serve with lemon wedges and fresh herbs.",
       "ingredient": "Salmon Fillets, Salt, Pepper, Olive Oil, Lemon, Fresh Herbs",
@@ -71,18 +71,18 @@
       "id": "8"
     },
     {
-      "name": "Beef Tacos",
-      "description": "Flavorful beef tacos with fresh toppings",
+      "name": "Chicken Tacos",
+      "description": " Flavorful chicken tacos that are perfect for a fun and casual meal. These tacos feature ground chicken cooked with a blend of taco seasoning and water until the sauce thickens and the chicken is infused with spices. The chicken is then served in crispy taco shells and topped with a variety of fresh toppings like shredded lettuce, diced tomatoes, cheese, and sour cream. These chicken tacos are easy to prepare and can be customized with your favorite toppings, making them a hit with both kids and adults. They are great for taco nights, parties, or a quick weeknight dinner.",
       "category": "Mexican",
-      "instruction": "In a skillet, cook ground beef over medium heat until browned. Stir in taco seasoning and water, simmering until the sauce thickens. Serve the beef mixture in taco shells, topped with shredded lettuce, diced tomatoes, cheese, and sour cream.",
-      "ingredient": "Ground Beef, Taco Seasoning, Water, Taco Shells, Lettuce, Tomatoes, Cheese, Sour Cream",
+      "instruction": "In a skillet, cook ground chicken over medium heat until browned. Stir in taco seasoning and water, simmering until the sauce thickens. Serve the beef mixture in taco shells, topped with shredded lettuce, diced tomatoes, cheese, and sour cream.",
+      "ingredient": "Ground Chicken, Taco Seasoning, Water, Taco Shells, Lettuce, Tomatoes, Cheese, Sour Cream",
       "image": "/assets/images/image9.jpeg",
       "ratings": "4",
       "id": "9"
     },
     {
       "name": "Pancakes",
-      "description": "Fluffy pancakes perfect for breakfast",
+      "description": "Fluffy pancakes that are perfect for a delightful breakfast or brunch. These pancakes are made with a simple batter of flour, baking powder, sugar, salt, milk, eggs, and melted butter, resulting in a light and airy texture. Each pancake is cooked to golden-brown perfection, with a soft and tender interior that melts in your mouth. Serve these pancakes with a drizzle of syrup and a pat of butter, or get creative with toppings like fresh berries, whipped cream, or chocolate chips. These pancakes are sure to start your day off on a sweet note.",
       "category": "Breakfast",
       "instruction": "In a bowl, whisk together flour, baking powder, sugar, and salt. In another bowl, beat together milk, eggs, and melted butter. Combine the wet and dry ingredients, stirring until just combined. Heat a lightly oiled griddle over medium-high heat. Pour batter onto the griddle, cooking until bubbles form on the surface. Flip and cook until golden brown. Serve with syrup and butter.",
       "ingredient": "Flour, Baking Powder, Sugar, Salt, Milk, Eggs, Butter, Syrup",

@@ -26,8 +26,8 @@ export class FoodService {
     return this.https.post(`${this.baseUrl}`,food);
   }
 
-  getOne(id:string){
-    return this.https.get(`${this.baseUrl}/${id}`);
+  getOne(id:string):Observable<Food>{
+    return this.https.get(`${this.baseUrl}/${id}`) as Observable<Food>;
   }
 
   updateItem(id:string,food:Food){

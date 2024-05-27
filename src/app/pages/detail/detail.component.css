@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.content-wrapper {
+  width: 50%;
+}
+.heading {
+  width: 500px;
+}
+.description {
+  text-wrap: wrap;
+  line-height: 1.6;
+  color: #666;
+  width: 500px;
+  text-align: justify;
+}
+.items {
+  line-height: 1.6;
+  font-size: medium;
+  font-weight: 500;
+  color: #666;
+}
