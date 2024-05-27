@@ -14,8 +14,8 @@ export class FoodService {
 
   constructor(private https:HttpClient) { }
 
-  getAll():Observable<Food>{
-   return this.https.get(`${this.baseUrl}`) as Observable<Food>;
+  getAll():Observable<Food[]>{
+   return this.https.get(`${this.baseUrl}`) as Observable<Food[]>;
   }
 
   deleteFood(id:string){

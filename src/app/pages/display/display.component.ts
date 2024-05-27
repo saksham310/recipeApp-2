@@ -18,7 +18,7 @@ export class DisplayComponent {
   //create empty array of type Food
   foods:Food[]=[];
   // creating an observable
-  obs$=new Observable<Food>();
+  obs$=new Observable<Food[]>();
   searchBox:string='all';
 
   constructor(private foodService:FoodService,private toast:ToastrService){
@@ -59,7 +59,7 @@ categoryLoad(cat:string){
 
 //using pipe function to use rxjs operator to filter the data matching the condition
 this.obs$.pipe(
-  map((data:any)=>data.filter((food:any)=>food.category.toLowerCase().includes(cat.toLowerCase())||
+  map((data:Food[])=>data.filter((food:Food)=>food.category.toLowerCase().includes(cat.toLowerCase())||
   food.name.toLowerCase().includes(cat.toLowerCase()))))
   .subscribe(data=>{
     console.log(data);
