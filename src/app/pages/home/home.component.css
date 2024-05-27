@@ -40,6 +40,9 @@
 }
 @media screen and (max-width: 768px) {
   .wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .col-left {
+    width: 300px;
   }
 }

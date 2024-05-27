@@ -25,4 +25,7 @@ this.service.onSearch(this.search.nativeElement.value);
 isCreation(){
   return this.route.url==="/form"
 }
+displaySearch():boolean{
+  return this.route.url==='/cards'
+}
 }

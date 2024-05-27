@@ -1,6 +1,6 @@
 <nav class="nav">
     <h1 class="nav-title" [routerLink]="'/'">RecipeRack</h1>
-    @if(!isCreation()){
+    @if(!isCreation()&&displaySearch()){
     <div class="search-container">
         <input type="text" placeholder="Search" (keyup.enter)="onSearch()" #search>
     </div>

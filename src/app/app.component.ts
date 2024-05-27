@@ -24,4 +24,5 @@ export class AppComponent {
   isMain():boolean{
     return this.router.url==="/"
   }
+ 
 }

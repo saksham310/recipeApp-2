@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { FoodService } from '../../serivce/food.service';
 import { map } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-recipe-form',
@@ -18,7 +19,7 @@ recipeForm!:FormGroup;
 buttonLabel="Add Recipe"
 label="Create New Recipe"
 id:string;
-constructor(private fb:FormBuilder, private service:FoodService, private route:ActivatedRoute){
+constructor(private fb:FormBuilder, private service:FoodService, private route:ActivatedRoute,private toastr:ToastrService){
   this.recipeForm=this.fb.group({
     name:["",[Validators.required]],
     description:["",[Validators.required]],
@@ -61,13 +62,17 @@ onClick(){
     })
   }
   if(this.id){
-    this.service.updateItem(this.id,this.recipeForm.value).subscribe(()=>{console.log("Updated success fully")
+    this.service.updateItem(this.id,this.recipeForm.value).subscribe(()=>{this.toastr.success("Updated successfully","Edited",{
+      timeOut:1000
+    })
       console.log(this.recipeForm.value)
     })
   }
   else{
   this.service.addNew(this.recipeForm.value).subscribe(()=>{
-    console.log("Added successfully")
+    this.toastr.success("New recipe added successfully","Added",{
+      timeOut:1000
+    })
     this.recipeForm.reset();
   
   })

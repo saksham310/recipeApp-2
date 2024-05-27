@@ -1,5 +1,5 @@
 <div class="wrapper">
     @for(food of foods;track food.id){
-    <app-card [food]="food" (idEmitter)="delete($event)" (categoryEmit)="categoryLoad($event)"></app-card>
+    <app-card [food]="food" (idEmitter)="delete($event)"></app-card>
     }
 </div>
