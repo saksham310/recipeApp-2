@@ -41,7 +41,7 @@ ngOnInit(){
 loadAll(){
   if(this.searchBox==='all'){
   //subscribes to access the data and store in the food array
-  this.obs$.subscribe((data:any)=>
+  this.obs$.subscribe((data:Food[])=>
     this.foods=data);}
   else{
     this.categoryLoad(this.searchBox)
