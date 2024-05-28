@@ -26,3 +26,8 @@ fa-icon {
 fa-icon:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 685px) {
+  h1 {
+    display: none;
+  }
+}

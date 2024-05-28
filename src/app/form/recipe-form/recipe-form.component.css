@@ -35,3 +35,15 @@ textarea {
   width: 520px;
   height: 120px;
 }
+button:disabled {
+  background-color: rgb(157, 157, 157);
+  cursor: not-allowed;
+}
+@media screen and (max-width: 685px) {
+  .form-wrapper {
+    width: 285px;
+  }
+  textarea {
+    width: 100%;
+  }
+}

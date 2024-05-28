@@ -7,7 +7,7 @@
       "instruction": "Heat oil in a large skillet over medium-high heat. Add garlic and ginger, cooking until fragrant. Add mixed vegetables and stir-fry for 5-7 minutes. Stir in soy sauce and cook for another 2-3 minutes. Serve hot over steamed rice or noodles.",
       "ingredient": "Mixed vegetables, Garlic, Ginger, Soy Sauce, Oil",
       "image": "/assets/images/image3.jpeg",
-      "ratings": "4",
+      "ratings": "3",
       "id": "3"
     },
     {
@@ -76,7 +76,7 @@
       "category": "Breakfast",
       "instruction": "In a bowl, whisk together flour, baking powder, sugar, and salt. In another bowl, beat together milk, eggs, and melted butter. Combine the wet and dry ingredients, stirring until just combined. Heat a lightly oiled griddle over medium-high heat. Pour batter onto the griddle, cooking until bubbles form on the surface. Flip and cook until golden brown. Serve with syrup and butter.",
       "ingredient": "Flour, Baking Powder, Sugar, Salt, Milk, Eggs, Butter, Syrup",
-      "image": "/assets/images/image11.jpeg",
+      "image": "/assets/images/image10.jpeg",
       "ratings": "5",
       "id": "10"
     }
