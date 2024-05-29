@@ -4,7 +4,7 @@ import { FoodService } from '../../serivce/food.service';
 import { Food } from '../../interface/food';
 import {map} from 'rxjs/operators';
 import { ToastrService } from 'ngx-toastr';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-display',
@@ -15,6 +15,7 @@ import { Observable } from 'rxjs';
 })
 export class DisplayComponent {
 
+  private subscription:Subscription=new Subscription()
   //create empty array of type Food
   foods:Food[]=[];
   // creating an observable
@@ -27,7 +28,7 @@ export class DisplayComponent {
 ngOnInit(){
   //using service to get the recipe items
   this.obs$= this.foodService.getAll();
-  this.foodService.Search.subscribe((data)=>{
+  const food$=this.foodService.Search.subscribe((data)=>{
     
 
     this.searchBox=data
@@ -35,14 +36,16 @@ ngOnInit(){
   }
   
   )
+  this.subscription.add(food$);
   this.loadAll();
 
 }
 loadAll(){
   if(this.searchBox==='all'){
   //subscribes to access the data and store in the food array
-  this.obs$.subscribe((data:Food[])=>
-    this.foods=data);}
+const all$=this.obs$.subscribe((data:Food[])=>
+    this.foods=data);
+this.subscription.add(all$);}
   else{
     this.categoryLoad(this.searchBox)
   }
@@ -50,21 +53,27 @@ loadAll(){
 
 delete(id:string){
   //deletes a recipe
+ const delete$= 
 this.foodService.deleteFood(id).subscribe(()=>{
   console.log("Delete Success"),
   this.loadAll();
 })
+this.subscription.add(delete$);
 }
 categoryLoad(cat:string){
 
 //using pipe function to use rxjs operator to filter the data matching the condition
-this.obs$.pipe(
+const filtered$=this.obs$.pipe(
   map((data:Food[])=>data.filter((food:Food)=>food.category.toLowerCase().includes(cat.toLowerCase())||
   food.name.toLowerCase().includes(cat.toLowerCase()))))
   .subscribe(data=>{
     console.log(data);
     this.foods=data
   })
+  this.subscription.add(filtered$);
 
+}
+ngOnDestroy(){
+  this.subscription.unsubscribe()
 }
 }
